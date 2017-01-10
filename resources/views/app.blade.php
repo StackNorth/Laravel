@@ -31,6 +31,9 @@
 			<ul class="nav navbar-nav">
 				<li><a href="/admin/comments">管理评论</a></li>
 			</ul>
+			<ul class="nav navbar-nav">
+				<li><a href="/admin/articlecomment">管理文章评论</a></li>
+			</ul>
 
 			<ul class="nav navbar-nav navbar-right">
 				@if (Auth::guest())
